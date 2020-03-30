@@ -63,7 +63,7 @@ body {
 	font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif; 
 	line-height: 1.5; 
 	-webkit-font-smoothing: antialiased; 
-	} 
+	} /* -- body */ 
 
 h1, h2, h3, h4, h5, h6 { 
 	margin: 10px 0; 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 	color:#222222; 
 	font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif; 
 	letter-spacing: -1px; 
-	} 
+	} /* -- h1 .. h6 */ 
 
 h1 { 
 	font-size: 36px; 
@@ -156,7 +156,7 @@ img {
 	-moz-box-shadow: 0 0 5px #ebebeb; 
 	-o-box-shadow: 0 0 5px #ebebeb; 
 	-ms-box-shadow: 0 0 5px #ebebeb; 
-	} 
+	} /* -- img */ 
 
 pre, code { 
 	width: 100%; 
@@ -169,7 +169,7 @@ pre, code {
 	border-radius: 2px; 
 	-moz-border-radius: 2px; 
 	-webkit-border-radius: 2px; 
-	} 
+	} /* -- pre, code */ 
 
 pre { 
 	width: 100%; 
@@ -287,7 +287,7 @@ Full-Width Styles
 	box-shadow: 0 0 10px rgba(0,0,0,.5); 
 	border-bottom-left-radius: 2px; 
 	border-bottom-right-radius: 2px; 
-	} 
+	} /* -- #forkme_banner */ 
 
 #header_wrap { 
 	background: #212121; 
@@ -296,7 +296,7 @@ Full-Width Styles
 	background: -ms-linear-gradient(top, #373737, #212121); 
 	background: -o-linear-gradient(top, #373737, #212121); 
 	background: linear-gradient(top, #373737, #212121); 
-	} 
+	} /* -- #header_wrap */ 
 
 #header_wrap .inner { 
 	padding: 50px 10px 30px 10px; 
@@ -308,7 +308,7 @@ Full-Width Styles
 	font-size: 42px; 
 	font-weight: 700; 
 	text-shadow: #111 0px 0px 10px; 
-	} 
+	} /* -- project_title */ 
 
 #project_tagline { 
 	color: #fff; 
@@ -316,7 +316,7 @@ Full-Width Styles
 	font-weight: 300; 
 	background: none; 
 	text-shadow: #111 0px 0px 10px; 
-	} 
+	} /* -- #project_tagline */ 
 
 #downloads { 
 	position: absolute; 
@@ -326,7 +326,7 @@ Full-Width Styles
 	right: 0; 
 	height: 70px; 
 	background: url('../images/icon_download.png') no-repeat 0% 90%; 
-	} 
+	} /* -- #downloads */ 
 
 .zip_download_link { 
 	display: block; 
@@ -336,7 +336,7 @@ Full-Width Styles
 	text-indent: -5000px; 
 	overflow: hidden; 
 	background: url(../images/sprite_download.png) no-repeat bottom left; 
-	} 
+	} /* -- .zip_download_link */ 
 
 .tar_download_link { 
 	display: block; 
@@ -347,7 +347,7 @@ Full-Width Styles
 	overflow: hidden; 
 	background: url(../images/sprite_download.png) no-repeat bottom right; 
 	margin-left: 10px; 
-	} 
+	} /* -- .tar_download_link */ 
 
 .zip_download_link:hover { 
 	background: url(../images/sprite_download.png) no-repeat top left; 
